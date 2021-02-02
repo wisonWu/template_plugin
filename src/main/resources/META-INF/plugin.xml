@@ -1,19 +1,26 @@
 <idea-plugin>
-    <id>com.github.wisonwu.templateplugin</id>
-    <name>template_plugin</name>
+    <id>com.zyhealth.mvvm</id>
+    <name>zyhealth_mvvm</name>
     <vendor>wisonwu</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>org.jetbrains.android</depends>
+    <depends>org.jetbrains.kotlin</depends>
+    <depends>com.intellij.modules.java</depends>
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.wisonwu.templateplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.wisonwu.templateplugin.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.zyhealth.mvvm.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.zyhealth.mvvm..services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.wisonwu.templateplugin.listeners.MyProjectManagerListener"
+        <listener class="com.zyhealth.mvvm..listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <extensions defaultExtensionNs="com.android.tools.idea.wizard.template">
+        <wizardTemplateProvider implementation="other.SamplePluginTemplateProviderImpl" />
+    </extensions>
 </idea-plugin>
