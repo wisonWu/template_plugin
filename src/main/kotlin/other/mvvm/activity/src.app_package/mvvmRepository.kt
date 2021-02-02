@@ -1,6 +1,6 @@
-package other.mvvm.activity.res.layout
+package other.mvvm.activity.src.app_package
 
-fun mvvmActivityXml(
+fun mvvmRepository(
         packageName: String,
         activityClass: String
 ) = """
@@ -19,3 +19,4 @@ fun mvvmActivityXml(
     tools:context="${packageName}.${activityClass}Activity">
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
+"""

@@ -1,6 +1,6 @@
-package com.github.wisonwu.templateplugin.services
+package com.zyhealth.mvvm.services
 
-import com.github.wisonwu.templateplugin.MyBundle
+import com.zyhealth.mvvm.MyBundle
 
 class MyApplicationService {
 

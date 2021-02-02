@@ -1,3 +1,8 @@
+package other.mvvm.activity
+
+import com.android.tools.idea.wizard.template.*
+import com.android.tools.idea.wizard.template.impl.activities.common.MIN_API
+
 val mvvmActivityTemplate
     get() = template {
         revision = 1

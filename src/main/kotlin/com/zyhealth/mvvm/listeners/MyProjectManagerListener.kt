@@ -1,9 +1,8 @@
-package com.github.wisonwu.templateplugin.listeners
+package com.zyhealth.mvvm.listeners
 
-import com.github.wisonwu.templateplugin.services.MyProjectService
-import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
+import com.zyhealth.mvvm.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
     companion object {

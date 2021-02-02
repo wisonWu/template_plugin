@@ -19,3 +19,4 @@ fun mvvmActivityXml(
     tools:context="${packageName}.${activityClass}Activity">
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
+"""

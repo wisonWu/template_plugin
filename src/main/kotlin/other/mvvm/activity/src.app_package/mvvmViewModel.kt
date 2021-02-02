@@ -1,4 +1,5 @@
 package other.mvvm.activity.src.app_package
+
 fun mvvmViewModel(
         packageName:String,
         activityClass:String

@@ -1,4 +1,4 @@
-package com.github.wisonwu.templateplugin
+package com.zyhealth.mvvm
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

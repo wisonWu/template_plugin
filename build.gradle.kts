@@ -38,12 +38,12 @@ version = pluginVersion
 
 // Configure project's dependencies
 repositories {
-    mavenCentral()
+    maven("http://maven.aliyun.com/nexus/content/groups/public/")
     jcenter()
 }
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.15.0")
-    compileOnly(files("lib/wizard-template.jar"))
+    compileOnly(files("libs/wizard-template.jar"))
 }
 
 // Configure gradle-intellij-plugin plugin.

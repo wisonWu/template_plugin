@@ -1,5 +1,6 @@
 package other.mvvm.activity
 
+
 import com.android.tools.idea.wizard.template.ModuleTemplateData
 import com.android.tools.idea.wizard.template.RecipeExecutor
 import other.mvvm.activity.res.layout.mvvmActivityXml
